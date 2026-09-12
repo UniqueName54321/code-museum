@@ -2317,25 +2317,25 @@ I said eight commands. I did not say eight problems.
 
 # Learn more
 
-Language Museum is emphatically not a complete Brainfuck course.
+## Inside the museum
 
-Useful places and artefacts to look up include:
+* [`pseudocode.md`](pseudocode.md) — the deliberately human-readable reference language Brainfuck spends this entire exhibit violently disagreeing with
+* [`ghidra-c.md`](ghidra-c.md) — another low-level-looking representation, although Ghidra C is reconstructed output rather than an actual source language
+* [`../languages/c.md`](../languages/c.md) — pointers, arrays and byte-level operations, except with the radical luxury of names and expressions
+* [`../languages/cpp.md`](../languages/cpp.md) — what happens when the evolutionary tree takes almost the exact opposite approach to language size
+* [`../languages/python.md`](../languages/python.md) — useful for appreciating just how much machinery hides behind something as innocent as `print(number)`
+* [`../recreational/intercal.md`](../recreational/intercal.md) — another foundational esolang, hostile to the programmer for almost completely opposite reasons
 
-- Urban Müller's original Brainfuck distribution and README
-- the Brainfuck article on the Esolang Wiki
-- preserved copies of Müller's original Amiga compiler and interpreter
-- modern Brainfuck interpreters and optimizing compilers
-- collections of Brainfuck algorithms and common idioms
-- Brainfuck self-interpreters
-- Brainfuck derivatives such as Ook!
+## Outside the museum
 
-Related museum exhibits:
+* [brainfuck — Esolang Wiki](https://esolangs.org/wiki/Brainfuck) — extensive documentation of the language, implementations, computational properties, examples, derivatives and historical quirks
+* [Yet another brainfuck reference — brainfuck.org](https://www.brainfuck.org/brainfuck.html) — a detailed reference concentrating on the language itself and the differences between the original model and later implementations
+* [Urban Müller's original `brainfuck-2` distribution — Aminet](https://aminet.net/package/dev/lang/brainfuck-2) — the actual 1993 Amiga package, including the famous 240-byte compiler, interpreter, source code and example programs
+* [Brainfuck — Wikipedia](https://en.wikipedia.org/wiki/Brainfuck) — general history, instruction-set overview and background on the language's influence
+* [The Epistle to the Implementors — brainfuck.org](https://brainfuck.org/epistle.html) — an entertainingly thorough discussion of the annoying edge cases that appear when you try to implement a language that supposedly has only eight instructions
 
-- [`pseudocode.md`](pseudocode.md)
-- [`../languages/c.md`](../languages/c.md)
-- [`../languages/cpp.md`](../languages/cpp.md)
-- [`../languages/python.md`](../languages/python.md)
-- [`../recreational/intercal.md`](../recreational/intercal.md)
+If you want to go directly to the archaeological specimen rather than merely reading about it, **the Aminet archive is the especially fun one**. That is not a recreation of Müller's original package. That is the package.
+
 
 ---
 
